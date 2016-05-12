@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var displayText: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,5 +24,22 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func buttonPressed(sender: AnyObject) {
+        let button = sender as! UIButton
+        if displayText.text == "0" && button.titleLabel?.text != "0" {
+            displayText.text = button.titleLabel?.text
+        } else if displayText.text != "0" {
+            displayText.text! += (button.titleLabel?.text)!
+        }
+    }
+    @IBAction func clearScreen(sender: AnyObject) {
+        displayText.text = "0"
+    }
+    @IBAction func addDot(sender: AnyObject) {
+        if !(displayText.text?.containsString("."))! {
+            let button = sender as! UIButton
+            displayText.text! += (button.titleLabel?.text)!
+        }
+    }
 }
 

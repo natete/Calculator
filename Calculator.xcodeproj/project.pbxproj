@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7AEBCFBB1CE5169E00CDAA20 /* digital-7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7AEBCFBA1CE5169E00CDAA20 /* digital-7.ttf */; };
+		7AEBCFBE1CE51C6F00CDAA20 /* digital-7 (italic).ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7AEBCFBD1CE51C6F00CDAA20 /* digital-7 (italic).ttf */; };
 		7AFA2C401CE50F540033726B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFA2C3F1CE50F540033726B /* AppDelegate.swift */; };
 		7AFA2C421CE50F540033726B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFA2C411CE50F540033726B /* ViewController.swift */; };
 		7AFA2C451CE50F540033726B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AFA2C431CE50F540033726B /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7AEBCFBA1CE5169E00CDAA20 /* digital-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7.ttf"; sourceTree = "<group>"; };
+		7AEBCFBD1CE51C6F00CDAA20 /* digital-7 (italic).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7 (italic).ttf"; sourceTree = "<group>"; };
 		7AFA2C3C1CE50F540033726B /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AFA2C3F1CE50F540033726B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AFA2C411CE50F540033726B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,9 +39,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7AEBCFBC1CE516AC00CDAA20 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7AEBCFBD1CE51C6F00CDAA20 /* digital-7 (italic).ttf */,
+				7AEBCFBA1CE5169E00CDAA20 /* digital-7.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		7AFA2C331CE50F540033726B = {
 			isa = PBXGroup;
 			children = (
+				7AEBCFBC1CE516AC00CDAA20 /* Resources */,
 				7AFA2C3E1CE50F540033726B /* Calculator */,
 				7AFA2C3D1CE50F540033726B /* Products */,
 			);
@@ -124,8 +138,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AFA2C4A1CE50F540033726B /* LaunchScreen.storyboard in Resources */,
+				7AEBCFBE1CE51C6F00CDAA20 /* digital-7 (italic).ttf in Resources */,
 				7AFA2C471CE50F540033726B /* Assets.xcassets in Resources */,
 				7AFA2C451CE50F540033726B /* Main.storyboard in Resources */,
+				7AEBCFBB1CE5169E00CDAA20 /* digital-7.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +303,7 @@
 				7AFA2C501CE50F540033726B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
