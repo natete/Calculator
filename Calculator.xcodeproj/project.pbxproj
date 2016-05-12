@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7AEBCFBB1CE5169E00CDAA20 /* digital-7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7AEBCFBA1CE5169E00CDAA20 /* digital-7.ttf */; };
-		7AEBCFBE1CE51C6F00CDAA20 /* digital-7 (italic).ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7AEBCFBD1CE51C6F00CDAA20 /* digital-7 (italic).ttf */; };
+		7AEBCFC01CE5232900CDAA20 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 7AEBCFBF1CE5232900CDAA20 /* README.md */; };
+		7AEBCFC61CE523C200CDAA20 /* digital-7 (italic).ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7AEBCFC21CE523C200CDAA20 /* digital-7 (italic).ttf */; };
+		7AEBCFC71CE523C200CDAA20 /* digital-7 (mono italic).ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7AEBCFC31CE523C200CDAA20 /* digital-7 (mono italic).ttf */; };
+		7AEBCFC81CE523C200CDAA20 /* digital-7 (mono).ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7AEBCFC41CE523C200CDAA20 /* digital-7 (mono).ttf */; };
+		7AEBCFC91CE523C200CDAA20 /* digital-7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7AEBCFC51CE523C200CDAA20 /* digital-7.ttf */; };
 		7AFA2C401CE50F540033726B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFA2C3F1CE50F540033726B /* AppDelegate.swift */; };
 		7AFA2C421CE50F540033726B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFA2C411CE50F540033726B /* ViewController.swift */; };
 		7AFA2C451CE50F540033726B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AFA2C431CE50F540033726B /* Main.storyboard */; };
@@ -17,8 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7AEBCFBA1CE5169E00CDAA20 /* digital-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7.ttf"; sourceTree = "<group>"; };
-		7AEBCFBD1CE51C6F00CDAA20 /* digital-7 (italic).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7 (italic).ttf"; sourceTree = "<group>"; };
+		7AEBCFBF1CE5232900CDAA20 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7AEBCFC21CE523C200CDAA20 /* digital-7 (italic).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7 (italic).ttf"; sourceTree = "<group>"; };
+		7AEBCFC31CE523C200CDAA20 /* digital-7 (mono italic).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7 (mono italic).ttf"; sourceTree = "<group>"; };
+		7AEBCFC41CE523C200CDAA20 /* digital-7 (mono).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7 (mono).ttf"; sourceTree = "<group>"; };
+		7AEBCFC51CE523C200CDAA20 /* digital-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7.ttf"; sourceTree = "<group>"; };
 		7AFA2C3C1CE50F540033726B /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AFA2C3F1CE50F540033726B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AFA2C411CE50F540033726B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,15 +48,18 @@
 		7AEBCFBC1CE516AC00CDAA20 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7AEBCFBD1CE51C6F00CDAA20 /* digital-7 (italic).ttf */,
-				7AEBCFBA1CE5169E00CDAA20 /* digital-7.ttf */,
+				7AEBCFC21CE523C200CDAA20 /* digital-7 (italic).ttf */,
+				7AEBCFC31CE523C200CDAA20 /* digital-7 (mono italic).ttf */,
+				7AEBCFC41CE523C200CDAA20 /* digital-7 (mono).ttf */,
+				7AEBCFC51CE523C200CDAA20 /* digital-7.ttf */,
 			);
-			name = Resources;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		7AFA2C331CE50F540033726B = {
 			isa = PBXGroup;
 			children = (
+				7AEBCFBF1CE5232900CDAA20 /* README.md */,
 				7AEBCFBC1CE516AC00CDAA20 /* Resources */,
 				7AFA2C3E1CE50F540033726B /* Calculator */,
 				7AFA2C3D1CE50F540033726B /* Products */,
@@ -137,11 +146,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AEBCFC81CE523C200CDAA20 /* digital-7 (mono).ttf in Resources */,
 				7AFA2C4A1CE50F540033726B /* LaunchScreen.storyboard in Resources */,
-				7AEBCFBE1CE51C6F00CDAA20 /* digital-7 (italic).ttf in Resources */,
 				7AFA2C471CE50F540033726B /* Assets.xcassets in Resources */,
+				7AEBCFC91CE523C200CDAA20 /* digital-7.ttf in Resources */,
+				7AEBCFC71CE523C200CDAA20 /* digital-7 (mono italic).ttf in Resources */,
 				7AFA2C451CE50F540033726B /* Main.storyboard in Resources */,
-				7AEBCFBB1CE5169E00CDAA20 /* digital-7.ttf in Resources */,
+				7AEBCFC61CE523C200CDAA20 /* digital-7 (italic).ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AEBCFC01CE5232900CDAA20 /* README.md in Sources */,
 				7AFA2C421CE50F540033726B /* ViewController.swift in Sources */,
 				7AFA2C401CE50F540033726B /* AppDelegate.swift in Sources */,
 			);
